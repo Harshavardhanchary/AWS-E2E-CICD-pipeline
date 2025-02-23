@@ -6,4 +6,4 @@ echo
 docker pull harshavardhan303/demo-cicd-pipeline
 # Run the Docker image as a container
 echo
-docker run -it -p 80:80 harshavardhan303/demo-cicd-pipeline
+docker run -d -p 5000:5000 harshavardhan303/demo-cicd-pipeline
